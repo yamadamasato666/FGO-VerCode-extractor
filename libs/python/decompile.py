@@ -23,7 +23,7 @@ def decrypt():
 
     print(f"[App] ArchLibs avalibles {lib_folders}")
     print(f"[App] Getting libil2cpp from {lib_folders[0]}")
-    lib_dir_name = lib_folders[0]
+    lib_dir_name = lib_folders[1]
     libil2cpp = os.path.join(config.temp_folder, "files", "lib", lib_dir_name, "libil2cpp.so")
 
     print('[App] Decrypting Files!', file=sys.stdout)
